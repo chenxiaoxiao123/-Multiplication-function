@@ -1,0 +1,8 @@
+
+#用reduce函数实现列表中的数字相乘
+from  functools import reduce
+def prod(a,c):
+    return a*c
+list = [1,2,3,4]
+c = reduce(prod,list)
+print(c)
